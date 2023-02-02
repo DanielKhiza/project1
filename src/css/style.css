@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+.bol {
+    /* text-transform: capitalize; */
+    /* надає зміну самих букв верхнього та нижнього регістру  */
+    font-size: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.chapter {
+    color: brown;
+    text-align: center;
+}
+
+.box {
+    /* position: absolute; */
+    vertical-align: middle;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(228, 142, 14);
+    padding: 30px 20px 30px 20px;
+    border: 4px solid black;
+    margin: 20px 5px 20px 5px;
+    /* z-index: 4; */
+}
+
+nav {
+    /* static,relative,absolute,fixed,inherit */
+    position: inherit;
+    left: 40px;
+    top: 20px;
+    /* bottom,top,right,left */
+}
+
+.example {
+    position: relative;
+}
+
+.redd {
+    /*  position: inherit; */
+    /*    left: 70px; */
+    background-color: red;
+    height: 30vh;
+    width: 30vw;
+    /* z-index: 2; */
+}
+
+.red {
+    color: blue;
+}
+
+.juice {
+    color: chartreuse;
+}
+
+.flex_box {
+    display: flex;
+    /* якщо даємо батькам цей флекс то всі елементи в ньому вирівнються по осі кординат х це стандарт */
+    align-items: center;
+    /* відповідає за вирівнювання блоків по вертикальній осі У */
+    justify-content: space-around;
+    /* елемент який відповідає за вирівнюванння тексту по головній осі  Х */
+    /* flex-wrap використовується тільки для переносу блоку,тексту якщо не поміщається в колонку. */
+    height: 450px;
+}
+
+
+/* 
+.flex_box_container {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+    color: black;
+} */
+
+.exa {
+    position: relative;
+}
+
+.box_head {
+    position: inherit;
+    /* унаследовать родителя */
+    height: 502px;
+    width: 1920px;
+    background-color: black;
+    color: rgb(231, 231, 214);
+    z-index: 1;
+}
+
+
+/*  padding-top: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+} */
+
+.box_bottom {
+    /* position: inherit; */
+    position: absolute;
+    width: 759px;
+    height: 480px;
+    background: url('../img/car_uber.png') center center/auto no-repeat;
+    right: 300px;
+    top: 200px;
+    z-index: 2;
+}
+
+.box_head1 {
+    position: inherit;
+    height: 502px;
+    width: 1920px;
+}
+
+.choice_descr {
+    text-align: center;
+    color: #222222;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+._white {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-weight: 300;
+    font-size: 38px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* .text_tax {
+    width: 327px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #222222;
+}
+
+ */
+
+
+/*.box_bottom {
+    
+    height: 421px;
+    position: inherit;
+    width: 800px;
+    background: url('../img/car_uber.png') center center/auto no-repeat;
+    z-index: 2;
+} */
